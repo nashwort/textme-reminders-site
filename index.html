@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TextMe Reminders</title>
+  <meta name="description" content="TextMe Reminders sends user-created reminders by SMS and lets users reply to complete or snooze them.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">TextMe Reminders</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#sms-opt-in">SMS opt-in</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Personal reminders by text</div>
+          <h1>Reminders that show up where you’ll see them.</h1>
+          <p class="lede">TextMe Reminders is a personal reminder service that sends user-created reminders by SMS. Reply to complete a reminder or snooze it for later.</p>
+        </div>
+        <div class="card sms-card" aria-label="Example SMS reminder">
+          <div class="small">Example reminder</div>
+          <div class="sms-bubble"><strong>TextMe Reminders:</strong> Reminder — Take the garbage out. Reply DONE when completed or SNOOZE 1H to be reminded again in one hour. Reply STOP to opt out.</div>
+          <div class="small">Message frequency varies. Message and data rates may apply.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works">
+      <div class="container">
+        <h2>How it works</h2>
+        <div class="grid-3">
+          <div class="step"><span class="step-num">1</span><h3>Create a reminder</h3><p>Choose what you want to remember, when you want the reminder, and whether it repeats.</p></div>
+          <div class="step"><span class="step-num">2</span><h3>Receive a text</h3><p>At the scheduled time, TextMe Reminders sends the reminder to your opted-in mobile number.</p></div>
+          <div class="step"><span class="step-num">3</span><h3>Reply to act</h3><p>Reply with supported commands such as DONE or SNOOZE 1H. Reply STOP at any time to opt out.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sms-opt-in">
+      <div class="container">
+        <div class="optin">
+          <h2>SMS opt-in</h2>
+          <p>To subscribe to SMS reminders, text <span class="keyword">START</span> to <span class="placeholder">YOUR_TWILIO_NUMBER</span>.</p>
+          <p>By texting START, you agree to receive recurring automated reminder messages from TextMe Reminders. Message frequency varies based on the reminders you create. Message and data rates may apply. Reply <strong>STOP</strong> to opt out or <strong>HELP</strong> for help.</p>
+          <p>TextMe Reminders is operated by <span class="placeholder">YOUR_REGISTERED_BRAND_NAME</span>.</p>
+          <p class="small">Do not use TextMe Reminders for emergencies or time-critical safety notifications.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="notice"><strong>Before publishing:</strong> replace every yellow placeholder with your actual registered brand name, Twilio number, and support email. See README.md in this package.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <div>© 2026 TextMe Reminders</div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

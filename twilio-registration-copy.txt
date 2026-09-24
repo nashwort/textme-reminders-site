@@ -1,0 +1,53 @@
+TEXTME REMINDERS — TWILIO A2P CAMPAIGN COPY
+
+Before submitting:
+- Publish the website.
+- Replace all placeholders.
+- Insert the live URLs where indicated below.
+
+PRIMARY OPT-IN METHOD
+Via text (keyword campaign)
+
+CAMPAIGN DESCRIPTION
+TextMe Reminders is a personal reminder application. Users create reminders for themselves and explicitly opt in to receive scheduled SMS reminder messages at their mobile number. Messages may include one-time or recurring reminders. Users can reply to complete or snooze reminders and can opt out at any time by replying STOP.
+
+MESSAGE FLOW / HOW END-USERS CONSENT
+Users opt in by following the public instructions on the TextMe Reminders website at YOUR_HOME_URL. The page instructs the user to text START to YOUR_TWILIO_NUMBER. The disclosure states that the user is agreeing to receive recurring automated reminder messages from TextMe Reminders, that message frequency varies, that message and data rates may apply, and that the user can reply STOP to opt out or HELP for help. The page also links to the Privacy Policy and Terms & Conditions. Reminder messages are sent only after the user has opted in.
+
+OPT-IN METHOD PROOF
+YOUR_HOME_URL
+
+PRIVACY POLICY URL
+YOUR_PRIVACY_URL
+
+TERMS & CONDITIONS URL
+YOUR_TERMS_URL
+
+SAMPLE MESSAGE 1
+TextMe Reminders: Reminder — Take the garbage out. Reply DONE when completed or SNOOZE 1H to be reminded again in one hour. Reply STOP to opt out.
+
+SAMPLE MESSAGE 2
+TextMe Reminders: Reminder — Dentist appointment tomorrow at 3:00 PM. Reply DONE or SNOOZE 1H. Reply STOP to opt out.
+
+OPT-IN KEYWORD
+START
+
+SUGGESTED OPT-IN CONFIRMATION MESSAGE
+TextMe Reminders: You're subscribed to SMS reminders. Message frequency varies based on the reminders you create. Message and data rates may apply. Reply HELP for help or STOP to cancel. Privacy: YOUR_PRIVACY_URL Terms: YOUR_TERMS_URL
+
+HELP KEYWORD
+HELP
+
+SUGGESTED HELP MESSAGE
+TextMe Reminders: Help is available at YOUR_SUPPORT_EMAIL. Reply STOP to opt out. Privacy: YOUR_PRIVACY_URL Terms: YOUR_TERMS_URL
+
+OPT-OUT KEYWORD
+STOP
+
+SUGGESTED OPT-OUT CONFIRMATION MESSAGE
+TextMe Reminders: You have been unsubscribed and will no longer receive SMS reminders. Reply START to opt in again.
+
+NOTES
+- Use the exact registered brand name on the live website.
+- Do not claim the website or opt-in flow is live until it actually is.
+- If Twilio's form wording differs, keep the substance accurate rather than forcing text into the wrong field.
